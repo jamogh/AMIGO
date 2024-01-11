@@ -17,6 +17,9 @@
 		7F239E422B459BC200E5EF25 /* commViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F239E412B459BC200E5EF25 /* commViewController.swift */; };
 		7F239E462B459C0300E5EF25 /* accountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F239E452B459C0300E5EF25 /* accountViewController.swift */; };
 		7F95D9D02B45B6B100B1F9C5 /* delhiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95D9CF2B45B6B100B1F9C5 /* delhiViewController.swift */; };
+		7FFCA74E2B4E5FBF0082CBF6 /* chatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFCA74D2B4E5FBF0082CBF6 /* chatViewController.swift */; };
+		7FFCA7502B4E76770082CBF6 /* chennaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFCA74F2B4E76770082CBF6 /* chennaiViewController.swift */; };
+		7FFCA75D2B4EB2710082CBF6 /* MessegesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFCA75C2B4EB2710082CBF6 /* MessegesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		7F239E412B459BC200E5EF25 /* commViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commViewController.swift; sourceTree = "<group>"; };
 		7F239E452B459C0300E5EF25 /* accountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountViewController.swift; sourceTree = "<group>"; };
 		7F95D9CF2B45B6B100B1F9C5 /* delhiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delhiViewController.swift; sourceTree = "<group>"; };
+		7FFCA74D2B4E5FBF0082CBF6 /* chatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
+		7FFCA74F2B4E76770082CBF6 /* chennaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chennaiViewController.swift; sourceTree = "<group>"; };
+		7FFCA75C2B4EB2710082CBF6 /* MessegesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessegesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,18 +71,45 @@
 			isa = PBXGroup;
 			children = (
 				7F239E2B2B45474A00E5EF25 /* AppDelegate.swift */,
-				7F239E452B459C0300E5EF25 /* accountViewController.swift */,
-				7F239E3F2B459A2B00E5EF25 /* searchViewController.swift */,
-				7F95D9CF2B45B6B100B1F9C5 /* delhiViewController.swift */,
 				7F239E2D2B45474A00E5EF25 /* SceneDelegate.swift */,
 				7F239E2F2B45474A00E5EF25 /* ViewController.swift */,
-				7F239E412B459BC200E5EF25 /* commViewController.swift */,
+				7FFCA7532B4E83220082CBF6 /* TabBAR */,
+				7FFCA7522B4E82ED0082CBF6 /* Chat */,
+				7FFCA7512B4E76B40082CBF6 /* Cities */,
 				7F239E312B45474A00E5EF25 /* Main.storyboard */,
 				7F239E342B45474B00E5EF25 /* Assets.xcassets */,
 				7F239E362B45474B00E5EF25 /* LaunchScreen.storyboard */,
 				7F239E392B45474B00E5EF25 /* Info.plist */,
 			);
 			path = AMIGO;
+			sourceTree = "<group>";
+		};
+		7FFCA7512B4E76B40082CBF6 /* Cities */ = {
+			isa = PBXGroup;
+			children = (
+				7F239E3F2B459A2B00E5EF25 /* searchViewController.swift */,
+				7F95D9CF2B45B6B100B1F9C5 /* delhiViewController.swift */,
+				7FFCA74F2B4E76770082CBF6 /* chennaiViewController.swift */,
+			);
+			path = Cities;
+			sourceTree = "<group>";
+		};
+		7FFCA7522B4E82ED0082CBF6 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				7FFCA74D2B4E5FBF0082CBF6 /* chatViewController.swift */,
+				7FFCA75C2B4EB2710082CBF6 /* MessegesViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		7FFCA7532B4E83220082CBF6 /* TabBAR */ = {
+			isa = PBXGroup;
+			children = (
+				7F239E452B459C0300E5EF25 /* accountViewController.swift */,
+				7F239E412B459BC200E5EF25 /* commViewController.swift */,
+			);
+			path = TabBAR;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,11 +185,14 @@
 			files = (
 				7F239E302B45474A00E5EF25 /* ViewController.swift in Sources */,
 				7F95D9D02B45B6B100B1F9C5 /* delhiViewController.swift in Sources */,
+				7FFCA74E2B4E5FBF0082CBF6 /* chatViewController.swift in Sources */,
 				7F239E462B459C0300E5EF25 /* accountViewController.swift in Sources */,
 				7F239E2C2B45474A00E5EF25 /* AppDelegate.swift in Sources */,
 				7F239E402B459A2B00E5EF25 /* searchViewController.swift in Sources */,
+				7FFCA75D2B4EB2710082CBF6 /* MessegesViewController.swift in Sources */,
 				7F239E2E2B45474A00E5EF25 /* SceneDelegate.swift in Sources */,
 				7F239E422B459BC200E5EF25 /* commViewController.swift in Sources */,
+				7FFCA7502B4E76770082CBF6 /* chennaiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
