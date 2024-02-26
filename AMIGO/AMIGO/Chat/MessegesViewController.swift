@@ -36,7 +36,7 @@ class MessegesViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     let data: [profile] = [
-        profile(emoji: "🙎‍♂️", name: "Alex", des: "Guide"), profile(emoji: "🙎‍♂️", name: "Blec", des: "Traveller"), profile(emoji: "🙎‍♂️", name: "dune", des: "guide"),profile(emoji: "🙎‍♂️", name: "Adam", des: "Guide"), profile(emoji: "🙎‍♂️", name: "Beck", des: "Traveller"), profile(emoji: "🙎‍♂️", name: "Drake", des: "guide")
+        profile(emoji: "😀", name: "Alex", des: "Guide"), profile(emoji: "😃", name: "Blec", des: "Traveller"), profile(emoji: "😇", name: "dune", des: "guide"),profile(emoji: "😀", name: "Adam", des: "Guide"), profile(emoji: "😃", name: "Beck", des: "Traveller"), profile(emoji: "😇", name: "Drake", des: "guide")
     ]
     
     override func viewDidLoad() {
